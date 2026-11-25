@@ -1,0 +1,20 @@
+Voice-over script (read along with the on-screen captions)
+
+0:00  A 3-minute walkthrough of my Facility Maintenance & SLA Tracker.
+0:08  [Chapter: WHAT]
+0:12  What is it? An Excel tool that logs complaints, checks deadlines and reports KPIs.
+0:26  Four parts: a ticket log, automatic SLA flags, maintenance alerts and a dashboard.
+0:37  [Chapter: WHY]
+0:41  Without one log, late repairs stay hidden until tenants complain again.
+0:55  So the goal: log, automate, prevent, measure and decide.
+1:07  [Chapter: HOW]
+1:11  It runs on real data: 5,000 NYC 311 maintenance complaints from Brooklyn, Sep to Nov 2026.
+1:25  Each complaint flows from the log to an SLA formula, then to the dashboard, automatically.
+1:39  Each category gets a priority and a deadline: 2 days for heating, up to 21 days for paint.
+1:51  The dashboard updates itself: KPIs, category breakdowns and charts, all from formulas.
+2:03  [Chapter: WHERE]
+2:07  Result: 68.2% of complaints met their SLA, and 483 of 487 open jobs were already late.
+2:19  Elevator, leak, electric and plumbing jobs were fixed on time less than half the time.
+2:31  One building logged 278 complaints, 126 about heat. That is where to act first.
+2:41  The same tracker works anywhere a facility team handles repair requests.
+2:51  Thank you. Manjunatha P · github.com/manjjunatha

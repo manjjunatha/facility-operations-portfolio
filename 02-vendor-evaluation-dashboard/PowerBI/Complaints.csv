@@ -1,0 +1,19 @@
+ComplaintID,ComplaintDate,Vendor,PONo,ComplaintType,Severity,Status
+CMP-301,2026-06-12,Woodline Furnishers,PO-26006,Damaged goods,High,Resolved
+CMP-302,2026-06-15,Office Mart Wholesale,PO-26001,Late delivery,High,Resolved
+CMP-303,2026-06-15,Hygiene Hub Distributors,PO-26011,Wrong item,Medium,Resolved
+CMP-304,2026-06-26,Hygiene Hub Distributors,PO-26019,Wrong item,Low,Resolved
+CMP-305,2026-07-12,Digital Point Mangalore,PO-26043,Late delivery,High,Resolved
+CMP-306,2026-07-19,Coastal Power Traders,PO-26052,Billing error,High,Open
+CMP-307,2026-07-23,Hygiene Hub Distributors,PO-26049,Poor service,Medium,Resolved
+CMP-308,2026-08-09,Coastal Power Traders,PO-26065,Billing error,High,Resolved
+CMP-309,2026-09-01,Sri Durga Electricals,PO-26091,Billing error,Medium,Resolved
+CMP-310,2026-09-12,TechNet Systems,PO-26100,Poor service,Medium,Resolved
+CMP-311,2026-09-20,Hygiene Hub Distributors,PO-26106,Billing error,Medium,Resolved
+CMP-312,2026-09-27,Hygiene Hub Distributors,PO-26121,Wrong item,Low,Open
+CMP-313,2026-10-27,CleanWay Supplies,PO-26145,Billing error,Medium,Resolved
+CMP-314,2026-10-28,Woodline Furnishers,PO-26148,Short supply,Low,Resolved
+CMP-315,2026-11-07,Hygiene Hub Distributors,PO-26159,Poor service,High,Resolved
+CMP-316,2026-11-15,CleanWay Supplies,PO-26164,Damaged goods,Medium,Resolved
+CMP-317,2026-11-16,Coastal Power Traders,PO-26166,Wrong item,High,Open
+CMP-318,2026-11-24,Hygiene Hub Distributors,PO-26180,Damaged goods,High,Open

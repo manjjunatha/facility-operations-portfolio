@@ -1,0 +1,82 @@
+{
+  "_about": "SLA rulebook for the SLA Report Bot. Edit values here; the bot follows them exactly and lists every rule it applied in the report's 'Rules Applied' sheet.",
+
+  "report_title": "SLA Performance Report",
+  "organisation": "",
+
+  "columns": {
+    "_about": "Leave a value empty to let the bot auto-detect the column. Otherwise type the exact column name from your file.",
+    "id": "",
+    "created": "",
+    "closed": "",
+    "status": "",
+    "priority": "",
+    "category": "",
+    "location": "",
+    "assignee": ""
+  },
+
+  "date_format": {
+    "_about": "day_first: true for 25/11/2026 style dates (India/UK), false for 11/25/2026 (US). 'auto' lets the bot decide from the data.",
+    "day_first": "auto"
+  },
+
+  "sla_targets_days": {
+    "Critical": 2,
+    "High": 7,
+    "Medium": 14,
+    "Low": 21
+  },
+
+  "default_priority": "Medium",
+
+  "priority_aliases": {
+    "_about": "Values found in a priority column are mapped to the four standard priorities (case-insensitive).",
+    "Critical": ["critical", "p1", "1", "urgent", "emergency", "sev1", "severity 1", "very high", "immediate", "blocker"],
+    "High": ["high", "p2", "2", "major", "sev2", "severity 2", "important"],
+    "Medium": ["medium", "p3", "3", "normal", "moderate", "sev3", "severity 3", "standard"],
+    "Low": ["low", "p4", "4", "p5", "5", "minor", "trivial", "sev4", "severity 4", "planning"]
+  },
+
+  "category_priority": {
+    "_about": "Used only when the file has no priority column. Exact category names (case-insensitive) first, then keywords contained in the category or description.",
+    "exact": {
+      "HEAT/HOT WATER": "Critical",
+      "ELEVATOR": "Critical",
+      "WATER LEAK": "High",
+      "SAFETY": "High",
+      "ELECTRIC": "High",
+      "PLUMBING": "High",
+      "PAINT/PLASTER": "Low",
+      "OUTSIDE BUILDING": "Low"
+    },
+    "keywords": {
+      "Critical": ["fire", "gas", "smoke", "no heat", "no water", "power outage", "flood", "lift stuck", "elevator", "security breach"],
+      "High": ["leak", "electric", "plumbing", "short circuit", "sparking", "ac not cooling", "safety", "network down"],
+      "Low": ["paint", "plaster", "cosmetic", "signage", "furniture"]
+    }
+  },
+
+  "clock": {
+    "_about": "calendar = every day counts. business = only working days count (weekends and the holidays below are skipped).",
+    "mode": "calendar",
+    "weekend_days": ["Sat", "Sun"],
+    "holidays": []
+  },
+
+  "closed_statuses": ["closed", "resolved", "completed", "done", "fixed", "cancelled", "canceled"],
+  "excluded_statuses": ["cancelled", "canceled", "duplicate", "invalid", "rejected", "spam"],
+
+  "as_of": {
+    "_about": "Date used to judge open tickets. 'today', 'latest' (latest date found in the data), or a date like 2026-11-25.",
+    "value": "today"
+  },
+
+  "at_risk_threshold": 0.75,
+
+  "compliance_target": 0.90,
+  "rag_amber_margin": 0.10,
+
+  "breakdowns": ["priority", "category", "location", "assignee"],
+  "top_n": 15
+}
